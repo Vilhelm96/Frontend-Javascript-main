@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: gold;
+}
+
+header {
+  background-color: blue;
+  text-align: center;
+}
+
+main {
+  background-color: black;
+  color: gold;
+  height: 500px;
+}
+
+main input {
+  margin: 8px;
+}
+
+main button {
+  background-color: black;
+  color: gold;
+  margin: 8px;
+}
+
+footer {
+  background-color: blue;
+  text-align: center;
+}

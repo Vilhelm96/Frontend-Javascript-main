@@ -1,0 +1,498 @@
+/*
+Author: Vilhelm Park
+Assignment: A01
+*/
+
+#theHeader
+{
+    height: 210px;
+    margin-bottom: 15px;
+}
+
+#headerImage
+{
+    height: 200px;
+    width: 400px;
+    border-radius: 5%;
+    float: left;
+    margin-right: 10px;
+}
+
+#headerTitle
+{
+   color: gold;
+   font-size: 30px;
+   display: inline-block;
+}
+
+#headerSlogan
+{
+    color: rgb(204, 201, 27);
+    font-size: 24px;
+}
+
+.navigationbar
+{
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.navigationbar a
+{
+    background: grey;
+    color: gold;
+    border-radius: 20%;
+    text-decoration: none;
+    padding: 8px;
+    margin: 3px;
+}
+
+.navigationbar a:hover
+{
+    color: black;
+    background: white;
+}
+
+/*
+Added padding to this image.
+*/
+#webDevPic
+{
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    padding: 3px;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 350px;
+}
+
+#articleByline
+{
+    margin-bottom: 10px;
+    border: 2px dashed white;
+    width: 600px;
+}
+
+#myImage
+{
+    float: left;
+    border: 1.5px solid whitesmoke;
+    height: 80px;
+    margin: 10px;
+}
+
+#backgroundImage
+{
+    background-image: url(../img/backgroundimage.png);
+    height: 100%;
+}
+#textOnTopImage
+{
+    background-image: url(../img/thewild.png);
+    height: 100px;
+}
+
+#flash
+{
+    width: 100%;
+    height: auto;
+}
+
+#flashImage
+{
+    width: 100%;
+}
+
+#labelInJavaScript
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: gold;
+    display: inline-block;
+}
+
+#randomFruit
+{
+    background-color: black;
+    color: gold;
+    border-radius: 20%;
+    padding: 8px;
+}
+
+.wrapper
+{
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.firstColumn
+{
+    float: left;
+    width: 25%;
+}
+.firstColumn li
+{
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.firstColumn li a
+{
+    background-color: grey;
+    padding: 5px;
+    text-decoration: none;
+    color: gold;
+}
+
+.firstColumn li a:hover
+{
+    color: black;
+}
+
+.secondColumnOne
+{
+    float: left;
+    width: 70%;
+}
+
+.secondColumnTwo
+{
+    float: left;
+    width: 45%
+}
+
+.thirdColumn
+{   
+    float: left;
+    width: 28%
+}
+
+#thirdColumnImage
+{
+    width: 100%;
+}
+
+.triptychOne
+{
+    float: left;
+    width: 33%;
+}
+
+.triptychTwo
+{
+    float: left;
+    width: 33%;
+}
+
+.triptychThree
+{
+    float: left;
+    width: 33%;
+}
+
+code
+{
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: larger;
+    color: mediumpurple;
+    font-family: cursive;
+}
+
+pre
+{
+    border: 2px dashed indigo;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: mediumaquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+abbr
+{
+    text-decoration: dotted;
+    font-size: x-large;
+    font-style: oblique;
+    color: crimson;
+}
+mark
+{
+    background-color: white;
+    font-style: italic;
+}
+
+dl dt
+{
+    font-weight: bolder;
+    font-size: x-large;
+    color:  rgb(107, 36, 36);
+
+}
+
+dl dd
+{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: large;
+    color: rgb(70, 4, 4);
+}
+
+
+input[type=text], select
+{
+    background: black;
+    color: gold;
+    margin-top: 5px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid grey;
+}
+
+input[type=text]:focus
+{
+   border: 3px solid black; 
+}
+
+input[type="button"]
+{
+    background: black;
+    color: gold;
+    margin-top: 10px;
+    width: 75px;
+    height: 30px;
+}
+
+label
+{
+    color: gold;
+    display: block;
+}
+
+table
+{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 2px solid white;
+    padding: 5px;
+}
+
+tr:nth-child(even)
+{
+    background-color: black;
+    color: gold;
+}
+
+tr:nth-child(odd)
+{
+    background-color: gold;
+    color: black;
+    border: 2px solid black;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header, body, footer{
+    color: gold;
+    white-space: normal;
+}
+
+body
+{
+    background: linear-gradient(145deg, rgba(11,11,11,1) 0%, rgba(164,164,168,1) 45%, rgba(207,207,207,1) 100%);
+    height: 100%;
+}
+
+form
+{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+figcaption
+{
+    text-align: center;
+    background: grey;
+    color: gold;
+    width: 350px;
+    margin-left: 400px;
+}
+
+footer
+{
+    background: black;
+    text-align: center;
+    overflow: auto;
+}
+
+footer li
+{
+    list-style-type: none;
+    padding: 3px;
+}
+
+footer li a
+{
+    text-decoration: none;
+    color: gold;
+}
+
+footer li a:hover
+{
+    color: whitesmoke;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: gold;
+}
+
+footer a:hover
+{
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .firstColumn
+    {
+        width: 20%;
+    }
+    .secondColumnTwo
+    {
+        width: 45%;
+    }
+    .thirdColumn
+    {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 950px)
+{
+    .firstColumn
+    {
+        width: 20%;
+    }
+    .secondColumnTwo
+    {
+        width: 45%;
+    }
+    .thirdColumn
+    {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 780px)
+{
+    #theHeader
+    {
+        height: 175px;
+    }
+
+    #headerImage
+    {
+        height: 150px;
+        width: 270px;
+    }
+
+    #headerTitle
+    {
+        font-size: 20px;
+    }
+
+    #headerSlogan
+    {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    header
+    {
+        overflow: hidden;
+    }
+
+    #headerImage
+    {
+        float: none;
+        height: auto;
+    }
+
+    #headerTitle
+    {
+        display: block;
+        font-size: 14px;
+    }
+
+    #headerSlogan
+    {
+        font-size: 12px;
+    }
+
+    .navigationbar
+    {
+        margin-top: 100px;
+    }
+
+    .navigationbar a
+    {
+        display: block;
+        width: 93%;
+        text-align: center;
+    }
+
+    .firstColumn
+    {
+        width: 100%;
+        float: none;
+    }
+
+    .secondColumnTwo
+    {
+        width: 100%;
+        float: none;
+    }
+
+    .thirdColumn
+    {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 420px)
+{
+    .triptychOne
+    {
+        float: none;
+        width: 100%;
+    }
+    .triptychTwo
+    {
+        float: none;
+        width: 100%;
+    }
+
+    .triptychThree
+    {
+        float: none;
+        width: 100%;
+    }
+}
